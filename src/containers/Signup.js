@@ -20,6 +20,7 @@ export default function Signup() {
     confirmPassword: "",
     confirmationCode: "",
   });
+  
   const history = useHistory();
   const [newUser, setNewUser] = useState(null);
   const { userHasAuthenticated } = useAppContext();
