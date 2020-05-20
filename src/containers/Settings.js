@@ -8,11 +8,13 @@ import BillingForm from "../components/BillingForm";
 import "./Settings.css";
 
 export default function Settings() {
+  
   const [stripe, setStripe] = useState(null);
 
   useEffect(() => {
     setStripe(window.Stripe(config.STRIPE_KEY));
   }, []);
+
   const history = useHistory();
   const [isLoading, setIsLoading] = useState(false);
 
