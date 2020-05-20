@@ -46,10 +46,3 @@ export default {
 };
 
 
-
-let email="marketing@kapcoinc.com";
-let phoneNumber="2629931344";
-let tenantId = db.accounts.findOne({"email": email}).username
-let count = 1
-db.messages.find({"username" : tenantId, "phone" : phoneNumber}).forEach(function (message) { let sentValue = message.sent; if (sentValue === undefined) {sentValue = 'Inbound'}; print(count + ') | ' + sentValue + ' | \n' + '   | ' + message.smscIds + ' | \n' + message.text + '\n\n'), count++ ;});
-
