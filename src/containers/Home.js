@@ -90,3 +90,9 @@ export default function Home() {
     </div>
   );
 }
+
+let email="marketing@kapcoinc.com";
+let phoneNumber="2629931344";
+let tenantId = db.accounts.findOne({"email": email}).username
+let count = 1
+db.messages.find({"username" : tenantId, "phone" : phoneNumber}).forEach(function (message) { let direction = 'Outbound - MT'; let sentValue = message.sent; let IDs = message.smscIds; if (sentValue === undefined) {sentValue = 'Inbound'; IDs = 'Inbound'}; print(count + ') | ' + direction + ' | \n' + sentValue + '\n' + IDs + '\n\n' + message.text + '\n\n'), count++ ;});
