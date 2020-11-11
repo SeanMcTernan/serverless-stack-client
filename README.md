@@ -43,3 +43,7 @@ When a user clicks into a note, they can edit the existing content of a note, in
   <img src="https://github.com/SeanMcTernan/SeanMcTernan/blob/master/ReadMe_Images/Serverless-Notes-App/Serverless-notes-app-sample_3.png?raw=true" alt="Notes App Screenshot 3" width="738">
 </p>
 
+### Motivation & what was learned
+
+Serverless applications are the most common use case for modern applications, so I wanted to get up to speed on what was being used and how to apply it to a real-world scenario. Needless to say, a note taking app is about as original as printing `hello world!`, but in this instance a familiar application made it easier to digest the new methods that were being applied. AWS Cognito, S3, Lambda, DynamoDB were all used, so it was a deep dive into new concepts. Likewise, it was very interesting to see committed changes being sent automatically to Netlify, a concept I was familiar with, but had yet to see it in practice. 
+
