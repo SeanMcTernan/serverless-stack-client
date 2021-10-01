@@ -22,25 +22,25 @@ The frontend of my Serverless note taking app. The App was created as part of th
 ### The App
 
 <p align="center">
-  <img src="https://github.com/SeanMcTernan/SeanMcTernan/blob/master/ReadMe_Images/Serverless-Notes-App/Serverless-notes-app-sample_1.png?raw=true" alt="Notes App Screenshot 1 " width="738">
+  <img src="https://raw.githubusercontent.com/SeanMcTernan/SeanMcTernan/a32389ca51de4ae8ba1568e963911b310e381da0/ReadMe_Images/Serverless-Notes-App/Serverless-notes-app-sample_1.png" alt="Notes App Screenshot 1 " width="738">
 </p>
 
 The front end of the app was basic by design. The focus of this project was to seamlessly link the front and back end of a web application. Above, you can see a login and sign up option for the landing page. Using AWS amplify, users can create an account or sign into an existing account. 
 
 <p align="center">
-  <img src="https://github.com/SeanMcTernan/SeanMcTernan/blob/master/ReadMe_Images/Serverless-Notes-App/Serverless-notes-app-sample_2.png?raw=true" alt="Notes App Screenshot 2" width="738">
+  <img src="https://raw.githubusercontent.com/SeanMcTernan/SeanMcTernan/a32389ca51de4ae8ba1568e963911b310e381da0/ReadMe_Images/Serverless-Notes-App/Serverless-notes-app-sample_2.png" alt="Notes App Screenshot 2" width="738">
 </p>
 
 Once logged-in users can see their existing notes and click to edit them. Alternatively, they can choose to create a new note, or edits their settings. The settings section was created using the [Stripe](https://www.stripe.com) sandbox. No charges can be processed if any details are entered. It was created as a means of understanding 3rd party payment applications.
 
 <p align="center">
-  <img src="https://github.com/SeanMcTernan/SeanMcTernan/blob/master/ReadMe_Images/Serverless-Notes-App/Serverless-notes-app-sample_4.png?raw=true" alt="Notes App Screenshot 3" width="738">
+  <img src="https://raw.githubusercontent.com/SeanMcTernan/SeanMcTernan/a32389ca51de4ae8ba1568e963911b310e381da0/ReadMe_Images/Serverless-Notes-App/Serverless-notes-app-sample_4.png" alt="Notes App Screenshot 3" width="738">
 </p>
 
 When a user clicks into a note, they can edit the existing content of a note, including it's attachments, or choose to delete the note entirely from the system. 
 
 <p align="center">
-  <img src="https://github.com/SeanMcTernan/SeanMcTernan/blob/master/ReadMe_Images/Serverless-Notes-App/Serverless-notes-app-sample_3.png?raw=true" alt="Notes App Screenshot 3" width="738">
+  <img src="https://raw.githubusercontent.com/SeanMcTernan/SeanMcTernan/a32389ca51de4ae8ba1568e963911b310e381da0/ReadMe_Images/Serverless-Notes-App/Serverless-notes-app-sample_3.png" alt="Notes App Screenshot 3" width="738">
 </p>
 
 ### Motivation & what was learned
